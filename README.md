@@ -3,12 +3,15 @@
 In this assignment we will start to use React components. The goal of this assignment is to compose generic smaller components into larger more complex components. You will have to think about the information passed (props) from the larger components down to their children components as well as how to layout these components. The components we will be creating are a login form, pager, and radio buttons. Below are some examples of how these might look:
 
   1. Login form example 
+  
   ![login form example](images/login_form.png)
 
-  2. Pager example
+  1. Pager example
+  
   ![pager example](images/pagination.png)
 
-  3. Radio buttons example
+  1. Radio buttons example
+  
   ![radio buttons](images/radio_buttons.png)
 
 
