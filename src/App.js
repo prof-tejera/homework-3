@@ -1,23 +1,41 @@
-import logo from './logo.svg';
+import MediaButtons from 'MediaButtons/MediaButtons';
+import LoginForm from 'LoginForm/LoginForm';
+import Pager from 'Pager/Pager';
+import RadioButtons from 'RadioButtons/RadioButtons';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="App-component">
+        <header className="App-header">
+          Media Buttons Component (Example)
+        </header>
+        <div className="App-content">
+          <MediaButtons />
+        </div>
+      </div>
+
+      <div className="App-component">
+        <header className="App-header">Login form component (TODO)</header>
+        <div className="App-content">
+          <LoginForm />
+        </div>
+      </div>
+
+      <div className="App-component">
+        <header className="App-header">Pager component (TODO)</header>
+        <div className="App-content">
+          <Pager />
+        </div>
+      </div>
+
+      <div className="App-component">
+        <header className="App-header">Radio Buttons component (TODO)</header>
+        <div className="App-content">
+          <RadioButtons />
+        </div>
+      </div>
     </div>
   );
 }
