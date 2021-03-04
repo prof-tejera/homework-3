@@ -6,11 +6,11 @@ In this assignment we will start to use React components. The goal of this assig
   
   ![login form example](images/login_form.png)
 
-  1. Pager example
+  2. Pager example
   
   ![pager example](images/pagination.png)
 
-  1. Radio buttons example
+  3. Radio buttons example
   
   ![radio buttons](images/radio_buttons.png)
 
