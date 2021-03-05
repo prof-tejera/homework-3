@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Panel = ({ children }) => {
-  return <div>{children}</div>;
-};
+class Panel extends Component {
+  render() {
+    return <div>{this.props.children}</div>;
+  }
+}
 
 export default Panel;

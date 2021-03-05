@@ -1,7 +1,10 @@
+import { Component } from 'react';
 import './Pager.css';
 
-const Pager = () => {
-  return null;
-};
+class Pager extends Component {
+  render() {
+    return null;
+  }
+}
 
 export default Pager;
