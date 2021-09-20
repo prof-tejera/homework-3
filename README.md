@@ -20,6 +20,7 @@ In this assignment we will start to use React components. The goal of this assig
 1. Layout the login form, pager, and radio buttons by composing generic components (`src/components`).
 2. Figure out what props will need to be passed down from parent to child.
 3. Feel free to add custom styling and new generic components.
+4. Deploy your app using whatever method you want (e.g. Github Pages, AWS, ect) and insert the url here: URL_TO_PROJECT
 
 ## How to run the project
 
