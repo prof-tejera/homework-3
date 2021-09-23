@@ -1,6 +1,6 @@
-## Assignment (solo submissions only)
+## Assignment
 
-In this assignment we will start to use React components. The goal of this assignment is to compose generic smaller components into larger more complex components. You will have to think about the information passed (props) from the larger components down to their children components as well as how to layout these components. The components we will be creating are a login form, pager, and radio buttons. Below are some examples of how these might look:
+In this assignment we will start to use React components. The goal of this assignment is to compose generic smaller components into larger more complex components. You will have to think about the information passed (props) from the larger components down to their child components. The components we will be creating are a login form, pager, and radio buttons. Below are some examples of how these might look:
 
   1. Login form example 
   
@@ -17,8 +17,8 @@ In this assignment we will start to use React components. The goal of this assig
 
 ## Deliverables
 
-1. Layout the login form, pager, and radio buttons by composing generic components (`src/components`).
-2. Figure out what props will need to be passed down from parent to child.
+1. Layout the login form, pager, and radio buttons by composing generic components that will be located in `src/components`.
+2. Figure out what props you want to pass down to each component. Example: let's say we created a button component some props that I might pass down could be a enable/disable flag, a way to change the color, and maybe a button size. 
 3. Feel free to add custom styling and new generic components.
 4. Deploy your app using whatever method you want (e.g. Github Pages, AWS, ect) and insert the url here: URL_TO_PROJECT
 
