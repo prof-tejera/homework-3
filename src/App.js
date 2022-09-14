@@ -1,9 +1,9 @@
-import { Component } from 'react';
-import MediaButtons from 'MediaButtons/MediaButtons';
-import LoginForm from 'LoginForm/LoginForm';
-import Pager from 'Pager/Pager';
-import RadioButtons from 'RadioButtons/RadioButtons';
-import './App.css';
+import { Component } from "react";
+import MediaButtons from "MediaButtons/MediaButtons";
+import LoginForm from "LoginForm/LoginForm";
+import Pager from "Pager/Pager";
+import RadioButtons from "RadioButtons/RadioButtons";
+import "./App.css";
 
 class App extends Component {
   render() {
