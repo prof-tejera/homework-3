@@ -4,7 +4,7 @@ In this assignment we will start to use React components. The goal of this assig
 
   1. Login form example 
   
-  ![login form example](<img width="643" alt="Screen Shot 2022-09-14 at 10 09 02 PM" src="https://user-images.githubusercontent.com/1903251/190304836-1bbe507c-3ad5-48d5-aef1-303d8663fa25.png">)
+  <img width="643" alt="Screen Shot 2022-09-14 at 10 09 02 PM" src="https://user-images.githubusercontent.com/1903251/190304836-1bbe507c-3ad5-48d5-aef1-303d8663fa25.png">
 
 
   2. Pager example
