@@ -21,18 +21,8 @@ In this assignment we will start to use React components. The goal of this assig
 1. Layout the login form, pager, and radio buttons by composing generic components (I see 2-3 generic components you could make) that will be located in `src/components`.
 2. Figure out what props you want to pass down to each component. Example: let's say we created a button component some, but not limited to, of the props that I might pass down could be a enable/disable flag, a way to change the color, and a button size. 
 3. Feel free to add custom styling any new generic components you want.
-4. For generic components that are taking event handlers (e.g. `onClick`, `onChange`, etc...), you are going to want to use `console.log` in the parent component so that you can see if your event is firing. Example: 
-```
-const Input = ({ onChange }) => {
-  return <input type="text" onChange={e => onChange(e.target.value)} />
-}
+4. Deploy your app and insert the url here: URL_TO_PROJECT
 
-const SomeComponentThatUsesInput = () => {
-  return <div>
-    <Input onChange={v => console.log(`Hello from App - Input Value is: ${v}`)}/>
-  </div>
-}
-```
 
 ## Bonus
 - Pager: If you have hardcoded a pager that works 1 to 10, then how might we modify it to be a bit more generic? What props can I pass in that will make the component more configurable?
