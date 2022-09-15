@@ -1,10 +1,14 @@
-import { Component } from 'react';
-import './Button.css';
+import "./Button.css";
 
-class Button extends Component {
-  render() {
-    return <button className="Default-button">{this.props.text}</button>;
-  }
-}
+const Button = ({ active, text, ...btnProps }) => {
+  return (
+    <button
+      className={active ? ".Default-button-active" : "Default-button"}
+      {...btnProps}
+    >
+      {text}
+    </button>
+  );
+};
 
 export default Button;

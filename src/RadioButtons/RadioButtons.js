@@ -1,10 +1,7 @@
-import { Component } from 'react';
-import './RadioButtons.css';
+import "./RadioButtons.css";
 
-class RadioButtons extends Component {
-  render() {
-    return null;
-  }
-}
+const RadioButtons = () => {
+  return null;
+};
 
 export default RadioButtons;

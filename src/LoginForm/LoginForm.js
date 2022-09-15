@@ -1,10 +1,7 @@
-import { Component } from 'react';
-import './LoginForm.css';
+import "./LoginForm.css";
 
-class LoginForm extends Component {
-  render() {
-    return null;
-  }
-}
+const LoginForm = () => {
+  return null;
+};
 
 export default LoginForm;
